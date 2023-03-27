@@ -3,12 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import TodoSubject from './Components/TodoSubject';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <TodoSubject />
+    <App />
   </React.StrictMode>
 );
 
